@@ -4,6 +4,6 @@ vimrc存放
 
     指令 :mv molokai.vim ~/.vim/colors
 
-修改 .vimrc 即可 
+修改 .vimrc 
 
     指令 : vim ~/.vimrc
