@@ -7,7 +7,7 @@
 ## **Install**
 
 ---
-In Ubuntu YCM 安裝步驟
+### **In Ubuntu YCM 安裝步驟**
 
 - sudo apt-get install build-essential cmake python-dev
 - cd ~/.vim/bundle/
