@@ -18,11 +18,14 @@ In Ubuntu YCM 安裝步驟
 
 到此YCM 已安裝完成
 
-### **將 molokai.vim 規則 放置colors內**
+### **將 molokai.vim 放置colors內**
 
 - mkdir ~/.vim/colors
 - mv molokai.vim ~/.vim/colors
 
+
+### **將 .vimrc 規則 放置 vimrc 同層目錄**
+- mv .vimrc $HOME
 
 ## **Reference**
 
