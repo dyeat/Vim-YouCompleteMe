@@ -46,11 +46,12 @@
 - git submodule update --init --recursive
 - ./install.py
 - mkdir ~/.vim/colors
-- mv molokai.vim ~/.vim/colors
-- mv .vimrc $HOME
+- cp molokai.vim ~/.vim/colors
+- cp .vimrc $HOME
 
 or
 
 - git clone https://github.com/dyeat/Vim-YouCompleteMe
 - cd Vim-YouCompleteMe
+- chmod +x vim-install.sh
 - ./vim-install.sh
