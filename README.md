@@ -30,3 +30,23 @@
 ## **Reference**
 
 - [http://www.html-js.com/article/1750](http://www.html-js.com/article/1750)
+
+---
+
+### 2021/02/17
+
+新增python3 安裝方法
+
+- sudo apt-get install python3-dev cmake
+- cd ~/.vim/bundle/
+- git clone https://github.com/Valloric/YouCompleteMe.git
+- cd ~/.vim/bundle/YouCompleteMe
+- git submodule update --init --recursive
+- ./install.py
+- mkdir ~/.vim/colors
+- mv molokai.vim ~/.vim/colors
+- mv .vimrc $HOME
+
+or
+
+./vim-install.sh
