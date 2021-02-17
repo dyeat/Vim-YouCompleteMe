@@ -7,6 +7,7 @@ git submodule update --init --recursive
 ./install.py
 mkdir ~/.vim/colors
 mv molokai.vim ~/.vim/colors
+cd Vim-YouCompleteMe
 mv .vimrc $HOME
 
 echo -e 'Done!'

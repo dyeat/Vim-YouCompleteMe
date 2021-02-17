@@ -45,8 +45,11 @@
 - ./install.py
 - mkdir ~/.vim/colors
 - mv molokai.vim ~/.vim/colors
+- cd Vim-YouCompleteMe
 - mv .vimrc $HOME
 
 or
 
-./vim-install.sh
+- git clone https://github.com/dyeat/Vim-YouCompleteMe
+- cd Vim-YouCompleteMe
+- ./vim-install.sh
