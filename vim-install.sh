@@ -1,4 +1,5 @@
 #!/bin/bash
+cd $HOME
 sudo apt-get install python3-dev cmake
 [ ! -f /.vim/bundle ] && mkdir ~/.vim && mkdir ~/.vim/bundle
 cd ~/.vim/bundle/
