@@ -38,6 +38,8 @@
 新增python3 安裝方法
 
 - sudo apt-get install python3-dev cmake
+- mkdir ~/.vim
+- mkdir ~/.vim/bundle
 - cd ~/.vim/bundle/
 - git clone https://github.com/Valloric/YouCompleteMe.git
 - cd ~/.vim/bundle/YouCompleteMe
@@ -45,7 +47,6 @@
 - ./install.py
 - mkdir ~/.vim/colors
 - mv molokai.vim ~/.vim/colors
-- cd Vim-YouCompleteMe
 - mv .vimrc $HOME
 
 or
