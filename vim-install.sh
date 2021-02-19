@@ -8,7 +8,7 @@ cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.py
 [ ! -f "~/.vim/colors" ] && mkdir ~/.vim/colors
-cd $HOME/Vim-YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
 cp molokai.vim ~/.vim/colors
 cp .vimrc $HOME
 
