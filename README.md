@@ -36,22 +36,22 @@
 ### 2021/02/17
 
 新增python3 安裝方法
-
-- sudo apt-get install python3-dev cmake
-- mkdir ~/.vim
-- mkdir ~/.vim/bundle
-- cd ~/.vim/bundle/
-- git clone https://github.com/Valloric/YouCompleteMe.git
-- cd ~/.vim/bundle/YouCompleteMe
-- git submodule update --init --recursive
-- ./install.py
-- mkdir ~/.vim/colors
-- cp molokai.vim ~/.vim/colors
-- cp .vimrc $HOME
+```sh
+sudo apt-get install python3-dev cmake
+mkdir ~/.vim
+mkdir ~/.vim/bundle
+cd ~/.vim/bundle/
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+./install.py
+mkdir ~/.vim/colors
+cp molokai.vim ~/.vim/colors
+cp .vimrc $HOME
+```
 
 or
 
-- git clone https://github.com/dyeat/Vim-YouCompleteMe
-- cd Vim-YouCompleteMe
-- chmod +x vim-install.sh
-- ./vim-install.sh
+- `wget https://raw.githubusercontent.com/dyeat/Vim-YouCompleteMe/master/vim-install.sh`
+- `chmod +x vim-install.sh`
+- `./vim-install.sh`
