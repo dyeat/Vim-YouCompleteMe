@@ -9,7 +9,7 @@ cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.py
 [ ! -f ~/.vim/colors ] && mkdir ~/.vim/colors
-wget https://raw.githubusercontent.com/dyeat/Vim-YouCompleteMe/master/molokai.vim -O ~/.vim/colors
-wget https://raw.githubusercontent.com/dyeat/Vim-YouCompleteMe/master/.vimrc -O ~/
+wget https://raw.githubusercontent.com/dyeat/Vim-YouCompleteMe/master/molokai.vim -O ~/.vim/colors/molokai.vim
+wget https://raw.githubusercontent.com/dyeat/Vim-YouCompleteMe/master/.vimrc -O ~/.vimrc
 
 echo -e 'Done!'
