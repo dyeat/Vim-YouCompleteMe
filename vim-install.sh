@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $HOME
-sudo apt-get install python3-dev cmake
+sudo apt-get -y install update upgrade python3-dev cmake 
 [ ! -f /.vim/bundle ] && mkdir ~/.vim && mkdir ~/.vim/bundle
 cd ~/.vim/bundle/
 git clone https://github.com/Valloric/YouCompleteMe.git
